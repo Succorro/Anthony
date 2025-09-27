@@ -12,7 +12,7 @@ function Home() {
                 className="flex flex-col m-2 rounded sm:p-5 items-center p-2 hover:bg-gray-50 transition-colors duration-300 hover:shadow-lg hover:-translate-y-1 transform"
             >
                 <picture className="justify-center">
-                    <img src={image} className="w-15" alt={`${title} service`} />
+                    <img src={image} className="w-20" alt={`${title} service`} />
                 </picture>
                 <div>
                     <h3 className="py-3 font-bold text-2xl text-green-500">{title}</h3>
