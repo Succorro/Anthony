@@ -27,7 +27,7 @@ const serviceData = [
   {
     image: "/excavator.png",
     title: "Construction",
-    text: "Essential for the job-site, with our larger 18yd and 22yd containers, disposing of any non-hazardous waste from the site just got easier.",
+    text: "Essential for the job-site, with our larger 20yd and 30yd containers, disposing of any non-hazardous waste from the site just got easier.",
   },
 ];
 export default serviceData;
