@@ -49,7 +49,7 @@ function TrustIcon({ type, className }) {
 }
 
 function QuoteCard() {
-  const [fileCount, setFileCount] = useState(0);
+  // const [fileCount, setFileCount] = useState(0);
   const [submitting, setSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState("idle"); // "idle" | "success" | "error"
   const [legalModal, setLegalModal] = useState(null);
@@ -79,7 +79,7 @@ function QuoteCard() {
       if (result.success) {
         setSubmitStatus("success");
         e.target.reset();
-        setFileCount(0);
+        // setFileCount(0);
       } else {
         setSubmitStatus("error");
       }
@@ -287,7 +287,7 @@ function QuoteCard() {
         </select>
 
         <div>
-          <label className="flex cursor-pointer items-center justify-center gap-2 rounded-md border-2 border-dashed border-green-700/40 bg-green-50 px-4 py-4 text-sm font-semibold text-green-700 hover:bg-green-100">
+          {/* <label className="flex cursor-pointer items-center justify-center gap-2 rounded-md border-2 border-dashed border-green-700/40 bg-green-50 px-4 py-4 text-sm font-semibold text-green-700 hover:bg-green-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -312,7 +312,7 @@ function QuoteCard() {
               className="sr-only"
               onChange={handleFileChange}
             />
-          </label>
+          </label> */}
         </div>
 
         <p className="text-center text-sm font-semibold text-gray-900">

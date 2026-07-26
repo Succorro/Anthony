@@ -13,7 +13,7 @@ function Services() {
                   Pricing Options
                 </h2>
                 <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                  We offer Trailer and Dumpster rentals, with affordable rates shown below! Special rates and discounts available.
+                  We offer Trailer and Dumpster rentals, with affordable rates! Special rates and discounts available.
                 </p>
                 <div className="bg-green-50 rounded-lg p-6 border-l-4 border-green-500">
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">
